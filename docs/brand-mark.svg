@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">CDR Insight Studio</title>
+  <desc id="desc">Signal nodes and the project name on a deep navy background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071D2B"/>
+      <stop offset="1" stop-color="#0F3D43"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#67E8F9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="30" fill="url(#bg)"/>
+  <g transform="translate(70 62)" fill="none" stroke="url(#signal)" stroke-width="9" stroke-linecap="round">
+    <path d="M32 155 C75 70 130 62 180 105 S267 135 310 42" opacity=".35"/>
+    <path d="M32 155 C82 160 118 118 160 122 S248 110 310 42"/>
+    <circle cx="32" cy="155" r="15" fill="#2DD4BF" stroke="none"/>
+    <circle cx="160" cy="122" r="15" fill="#5EEAD4" stroke="none"/>
+    <circle cx="310" cy="42" r="15" fill="#67E8F9" stroke="none"/>
+  </g>
+  <text x="445" y="145" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" letter-spacing="-2">CDR Insight</text>
+  <text x="448" y="205" fill="#99F6E4" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="600" letter-spacing="8">STUDIO</text>
+  <text x="448" y="252" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="19">Telecom record analysis · Streamlit · Python</text>
+</svg>
